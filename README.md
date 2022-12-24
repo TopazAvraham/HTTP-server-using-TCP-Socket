@@ -39,7 +39,16 @@ I implemeted an HTTP server on top of TCP, which handles requests from client's 
 
 ## Implementation
 
-files folder..
+In the folder of the repository, there is a server code and a files folder. The server functions as a file storage HTTP server which allows clients to coonect, 
+and request files that are inside the files folder.
+
+The files folder contains html pages, jpg photos, etc. <br>
+
+If a client requests a file that in not in the files folder, HTTP 404 error will occur. <br>
+
+After running the server code on the terminal with argument that will be the port server, client can connect with this server, <br>
+and ask for pages and files 
+that are inside the files folder and they will see it in their browser.
     
 
 ## Visualization & Screenshots
