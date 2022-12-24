@@ -39,7 +39,7 @@ I implemeted an HTTP server on top of TCP, which handles requests from client's 
 
 ## Implementation
 
-.....
+files folder..
     
 
 ## Visualization & Screenshots
@@ -62,11 +62,11 @@ I implemeted an HTTP server on top of TCP, which handles requests from client's 
 
 1. Clone this repo by creating a specific folder in your computer, open terminal in this folder and run this command:
     ```
-    git clone https://github.com/TopazAvraham/ChatApp--Multiple-Clients-to-Server-UDP-Sockets
+    git clone https://github.com/TopazAvraham/HTTP-server-using-TCP-Sockets
     ```
     Alternatively, you can just download all the files from this repo to your computer, and save them all in that specific folder
 
-2. Open different “terminals” in this specific folder.<br>
+2. Open “terminal” in this specific folder.<br>
 	
 3. Run this command in one terminal to run the server code:
 	```
@@ -76,24 +76,25 @@ I implemeted an HTTP server on top of TCP, which handles requests from client's 
 	where para1 = port number that the server will listen to.
   <br>
   
-5. Run this command in a second terminal to run the client code:
-	```
-    python3 client.py (para1) (para2)
-    ```
+5. Open any browser you want: Google Chrome, FireFox, Edge, Safari, etc.
+  
+6. write in the search bar (url) the following format:
 	
-  where para1 = IP address of the server <br>
-	and para2 = Port number of the server <br>
+    ```
+    http://[Server IP]:[Server port][Path]
+    ```
   
-6. You can also open as many terminals as you wish to illustrate different clients.
-  
-7. Start chatting in the group and enjoy the results.
+and enter the server IP, Port, and path accordingly.
+	
+7. Press enter and enjoy the results.
+	
 
 </b>	
 
 ## Built With
 
 - Python
-- UDP Sockets
+- TCP Sockets
 
 <br />
 
