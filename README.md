@@ -24,7 +24,7 @@
 
 ## Introduction
 
-This Server code is the final product of computer-networks course assignment, which I took in the 1st semester of my 2nd year at Bar Ilan University.  
+This server code is the product of computer-networks course assignment, which I took in the 1st semester of my 2nd year at BIU university. <br>  
 I implemeted an HTTP server on top of TCP, which handles requests from client's browsers to see specific files that sits on the server folder.
 <br>After request from client & handling from server is complete, the client can see the result in his browser.
 
